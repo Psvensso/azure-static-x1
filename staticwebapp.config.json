@@ -1,0 +1,21 @@
+{
+    "auth": {
+        "identityProviders": {
+          "facebook": {
+            "registration": {
+              "appIdSettingName": "1243715662904960",
+              "appSecretSettingName": "5c798f461077e3b1072d4d571b07536b"
+            }
+          }
+        }
+      },
+    "routes":[
+        {
+            "route": "/adminapi/*",
+            "allowedRoles": ["authenticated"]
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    }
+}
