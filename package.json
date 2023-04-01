@@ -1,0 +1,19 @@
+{
+  "name": "azure-static-x1",
+  "version": "1.0.0",
+  "description": "azure-static-x1",
+  "main": "index.js",
+  "scripts": {
+    "start": "swa start --host=127.0.0.1 --port=3010 --app-devserver-url=http://127.0.0.1:3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psvensso/azure-static-x1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psvensso/azure-static-x1/issues"
+  },
+  "homepage": "https://github.com/Psvensso/azure-static-x1#readme"
+}
